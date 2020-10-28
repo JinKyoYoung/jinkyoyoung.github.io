@@ -1,0 +1,19 @@
+# Setup
+title:        Project or Site name
+tagline:      A responsive theme for your project on GitHub Pages
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       luckyo
+  url:        https://github.com/JinKyoYoung/jinkyoyoung.github.io
+  email:      kyo0280@gmail.com
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
