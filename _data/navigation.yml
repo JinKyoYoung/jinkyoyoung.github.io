@@ -21,6 +21,7 @@ foo:
 # main links
 main:
   - title: "Quick-Start Guide"
+<<<<<<< HEAD
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
@@ -131,3 +132,14 @@ sidebar-sample:
         url: /
       - title: "Child Page D2"
         url: /
+=======
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ 
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+>>>>>>> ad20c453e5874fe5f41b7f209e48cb4c878a9508
