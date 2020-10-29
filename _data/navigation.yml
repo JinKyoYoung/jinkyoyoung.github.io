@@ -21,7 +21,6 @@ foo:
 # main links
 main:
   - title: "Quick-Start Guide"
-<<<<<<< HEAD
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
