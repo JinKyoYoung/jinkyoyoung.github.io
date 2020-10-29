@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "luckyo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Github.io Blog"
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
