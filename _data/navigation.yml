@@ -12,6 +12,8 @@ main:
  #   url: https://github.com/JinKyoYoung/jinkyoyoung.github.io/blob/master/_pages/category-archive.md
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/ 
+  - title: "External Link"
+    url: https://google.com
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
