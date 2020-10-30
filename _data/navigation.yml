@@ -23,13 +23,11 @@ main:
   - title: "About"
     url: /about/
   - title: "Category Posts"
-    url: /category-archive/
+    url: /categories/
   - title: "Tag Posts"
-    url: /tag-archive/
+    url: /tags/
   - title: "year Posts"
     url: /year-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
 
