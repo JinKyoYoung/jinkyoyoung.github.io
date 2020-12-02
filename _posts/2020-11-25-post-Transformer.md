@@ -52,3 +52,14 @@ q와 k 가 tf.matmul이 되는 지 확인 해봐야 한다.
 *3차원 안에 있는 2차원들만 전치가 돼서 계산이 되는거다!!!
 (1,4) (3,2)(3,2).T 이기 때문에 전치를 해서 (1,4) (3,2)(2,3) 이되고
 결론 적으로 (1,4,3,3) 이 되는 것이다..
+
+query         key.T           matmul_qk
+(1,4,40, 40)(1,4,32,40)  = (1,4,40,40)
+matmul        value           scaled_attention
+(1,4,40, 40)(1,4,40, 32)  = (1,4,40,32)
+(batch_size, query 의 문장 길이, num_heads, d_model/num_heads)
+(1,40,4,32)
+reshape 을 통해 (1,40,128) 이 되고 새로운 W0은 (d_model, dv x num_heads) 를 matmul 한게
+Multiful_head attention matrix 가 된다!!!
+
+(1,40,128)(1,128,128) 최종적인 형상은 (40, 128)
